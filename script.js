@@ -1,20 +1,20 @@
 // Project Data Structure
 const projects = [
     {
-        title: "Project 1",
-        description: "This is a description of Project 1. It is a simple but effective project.",
-        link: "https://github.com/yourusername/project1"
+        "title": "senna1633.github.io",
+        "description": "A customizable template to help you build and launch your own personal website effortlessly.",
+        "link": "https://github.com/senna1633/senna1633.github.io"
+    },    
+    {
+        "title": "Project 2",
+        "description": "An advanced project featuring innovative functionalities, designed to streamline tasks and solve real-world problems. Ideal for users who need efficient, modern solutions.",
+        "link": "https://github.com/yourusername/project2"
     },
     {
-        title: "Project 2",
-        description: "This is a description of Project 2. It's a cool project with advanced features.",
-        link: "https://github.com/yourusername/project2"
-    },
-    {
-        title: "Project 3",
-        description: "This is a description of Project 3. It showcases some unique skills.",
-        link: "https://github.com/yourusername/project3"
-    }
+        "title": "Project 3",
+        "description": "This project demonstrates unique approaches to complex challenges, offering creative solutions that highlight a range of technical skills and design thinking.",
+        "link": "https://github.com/yourusername/project3"
+    }    
 ];
 
 // Function to render projects dynamically
