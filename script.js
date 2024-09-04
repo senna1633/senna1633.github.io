@@ -1,17 +1,40 @@
-// JavaScript for interactivity and form handling
+// Project Data Structure
+const projects = [
+    {
+        title: "Project 1",
+        description: "This is a description of Project 1. It is a simple but effective project.",
+        link: "https://github.com/yourusername/project1"
+    },
+    {
+        title: "Project 2",
+        description: "This is a description of Project 2. It's a cool project with advanced features.",
+        link: "https://github.com/yourusername/project2"
+    },
+    {
+        title: "Project 3",
+        description: "This is a description of Project 3. It showcases some unique skills.",
+        link: "https://github.com/yourusername/project3"
+    }
+];
 
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('contact-form');
+// Function to render projects dynamically
+function renderProjects() {
+    const projectList = document.getElementById('project-list');
+    projectList.innerHTML = '';
 
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
+    projects.forEach(project => {
+        const projectCard = document.createElement('div');
+        projectCard.classList.add('project-card');
 
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
+        projectCard.innerHTML = `
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            <a href="${project.link}" target="_blank">View on GitHub</a>
+        `;
 
-        alert(`Thank you, ${name}! We have received your message: "${message}". We will reach out to you at ${email} shortly.`);
-        
-        form.reset(); // Reset form fields
+        projectList.appendChild(projectCard);
     });
-});
+}
+
+// Call the function to display projects
+renderProjects();
