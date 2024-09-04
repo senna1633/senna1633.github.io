@@ -18,7 +18,7 @@ This repository contains a template for creating a personal website. It includes
 To use this template, follow these steps:
 
 1. **Fork the Repository**:
-    - [Fork documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) (if online)
+    - [Fork documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
 2. **Customize Your Site**:
     - Modify the HTML, CSS, and JavaScript files to fit your personal or project needs.
