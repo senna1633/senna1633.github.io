@@ -17,15 +17,13 @@ This repository contains a template for creating a personal website. It includes
 
 To use this template, follow these steps:
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/senna1633/senna1633.github.io.git
-    cd senna1633.github.io
-    ```
+1. **Fork the Repository**:
+    - [Fork documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) (if online)
 
 2. **Customize Your Site**:
     - Modify the HTML, CSS, and JavaScript files to fit your personal or project needs.
     - Update the content, such as text, images, and links, according to your preferences.
+    - To adde or edit project shown on ure sit go to the JavaScript file and edit it.
 
 3. **Deploy Your Site**:
     - Push your changes to a GitHub repository with GitHub Pages enabled.
@@ -39,21 +37,13 @@ To use this template, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or features, please open an issue or submit a pull request. For more details, see the `CONTRIBUTING.md` file.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+Contributions are welcome! If you have suggestions for improvements or features, please open an issue or submit a pull request.
 
 ## Links
 
 - [GitHub Repository](https://github.com/senna1633/senna1633.github.io)
-- [Live Demo](https://senna1633.github.io) (if applicable)
+- [Live Demo](https://senna1633.github.io) (if online)
 
 ## Contact
 
-For any questions or inquiries, please reach out via [email](mailto:your-email@example.com) or [GitHub Issues](https://github.com/senna1633/senna1633.github.io/issues).
-
----
-
-Feel free to adapt this README to better fit your specific needs and add any additional information that might be useful for users of your template.
+For any questions or inquiries, please reach out via[GitHub Issues](https://github.com/senna1633/senna1633.github.io/issues).
