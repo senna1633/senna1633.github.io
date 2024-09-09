@@ -29,6 +29,35 @@ header p {
     color: #8b949e;
 }
 
+nav {
+    background-color: #161b22;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #58a6ff;
+}
+
 #projects {
     margin: 0 auto;
     max-width: 900px;
@@ -89,6 +118,19 @@ header p {
     border-radius: 8px;
     margin-bottom: 15px;
     object-fit: cover;
+    background-color: #0d1117; /* fallback color in case no image is loaded */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .project-card {
+        padding: 15px;
+    }
 }
 
 footer {
@@ -96,34 +138,4 @@ footer {
     text-align: center;
     color: #8b949e;
     font-size: 0.9em;
-}
-
-
-/* Navigation Bar Styles */
-nav {
-    background-color: #161b22;
-    padding: 15px;
-    margin-bottom: 40px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #c9d1d9;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #58a6ff;
 }
